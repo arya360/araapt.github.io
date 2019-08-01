@@ -1,0 +1,43 @@
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea{
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.wpcf7 input[type="submit"]{
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.wpcf7-form{
+    float: left;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.aep-cf7 {
+    display: table;
+	margin:0 auto
+}
+.wpcf7-form label{
+	width:100%
+}
